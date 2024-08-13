@@ -1,0 +1,31 @@
+<style>
+    body {
+      background-color: blue;
+    }
+    
+    h1 {
+      color: orange;
+      text-align: center;
+      font-family: Verdana, sans-serif;
+      font-size: 40px;
+      outline-style: outset;
+      padding: 10px 20px; /* Adiciona espaçamento interno */
+      border: 2px solid orange; /* Adiciona uma borda ao título */
+      display: inline-block; /* Faz com que o título se comporte como um bloco em linha para o efeito de botão */
+      transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease; /* Adiciona uma transição suave */
+    }
+
+    h1:hover {
+      background-color: orange; /* Cor de fundo quando o mouse passa sobre o título */
+      color: blue; /* Cor do texto quando o mouse passa sobre o título */
+      border-color: blue; /* Cor da borda quando o mouse passa sobre o título */
+      cursor: pointer; /* Muda o cursor para uma mãozinha */
+    }
+    h1:active {
+            background-color: darkorange; /* Cor de fundo quando clicado */
+            color: white; /* Cor do texto quando clicado */
+            border-color: white; /* Cor da borda quando clicado */
+            transform: scale(0.98); /* Efeito de clique (reduz ligeiramente o tamanho) */
+        }
+  </style>
+<h1>Hello, Rails!</h1>
